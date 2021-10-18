@@ -65,11 +65,11 @@ SDK 中的每一个 api 调用都有详细的注释文档，
 
 如果需要了解这段代码提及但未完全覆盖的使用技巧，请参考：
 
-- [通用配置](configure.md)，了解如何配置 SDK，如日志、重试、服务访问端点（公有云、专有云）等
-- [错误处理](error.md)，了解如何处理不同类型的 SDK 异常，包括参数错误，RetCode 不为 0 的业务异常等
-- [类型系统](typesystem.md)，了解 SDK 如何校验参数，并规范化 API 的返回值。
-- [请求中间件](middleware.md)，了解如何拦截 SDK 发起的请求，并统一添加额外的逻辑。
-- [泛化调用](generic.md)，如何调用 SDK 尚未支持的 API（不建议使用此类 API，因为没有兼容性保证）
+- [通用配置](/opensdk-php/configure.md)，了解如何配置 SDK，如日志、重试、服务访问端点（公有云、专有云）等
+- [错误处理](/opensdk-php/error.md)，了解如何处理不同类型的 SDK 异常，包括参数错误，RetCode 不为 0 的业务异常等
+- [类型系统](/opensdk-php/typesystem.md)，了解 SDK 如何校验参数，并规范化 API 的返回值。
+- [请求中间件](/opensdk-php/middleware.md)，了解如何拦截 SDK 发起的请求，并统一添加额外的逻辑。
+- [泛化调用](/opensdk-php/generic.md)，如何调用 SDK 尚未支持的 API（不建议使用此类 API，因为没有兼容性保证）
 
 ## 获取更多示例
 
@@ -77,5 +77,5 @@ SDK 中的每一个 api 调用都有详细的注释文档，
 
 SDK 提供了部分基于场景的示例，并提供了对应的资源销毁逻辑，可以点击以下链接查看源码：
 
-- [批量创建云主机](../examples/uhost)
-- [创建基于负载均衡器的两层架构](../examples/two-tier)，ULB + UHost
+- [批量创建云主机](https://github.com/ucloud/ucloud-sdk-php/tree/master/examples/uhost)
+- [创建基于负载均衡器的两层架构](https://github.com/ucloud/ucloud-sdk-php/tree/master/examples/two-tier)，ULB + UHost
